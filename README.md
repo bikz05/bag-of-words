@@ -9,7 +9,7 @@ python findFeatures.py -t dataset/train/
 ## Testing the classifier
 * Testing a number of images
 ```
-python getClass.py -i dataset/test/visualize
+python getClass.py -t dataset/test --visualize
 ```
 * Testing a single image
 ```
