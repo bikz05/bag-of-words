@@ -24,7 +24,7 @@ def imshow(im_title, im):
 
 def imreads(path):
     '''
-    This reads all the images in a given folder and displays the results 
+    This reads all the images in a given folder and returns the results 
     '''
     images_path = imlist("/home/bikz05/Desktop/back_projection")
     images = []
