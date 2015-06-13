@@ -46,7 +46,7 @@ for image_path in image_paths:
     
 # Stack all the descriptors vertically in a numpy array
 descriptors = des_list[0][1]
-for image_path, descriptor in des_list[0:]:
+for image_path, descriptor in des_list[1:]:
     descriptors = np.vstack((descriptors, descriptor))  
 
 # Perform k-means clustering
